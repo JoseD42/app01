@@ -1,0 +1,44 @@
+body{
+    background-color: #5CDB95;
+}
+
+a{
+    color: #edf5e1;
+    font-family: 'Impact', sans-serif;
+    text-decoration: none;
+}
+h1{
+    color: gold;
+}
+h2{
+    color: ghostwhite ;
+}
+h3{
+    color: green;
+}
+
+.header{
+    color: #EDF5E1;
+}
+
+div{
+    background-color: #0b0c10;
+    color: #c5c6c7;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14;
+}
+#div-1{
+    background-color: #05386B;
+    width: 60%;
+}
+
+#div-2{
+    background-color: cyan;
+    width: 45%;
+}
+
+@media only screen and (max-width: 600px){
+    body{
+        background-color: #fff;
+    }
+}

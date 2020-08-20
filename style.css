@@ -1,5 +1,5 @@
 body{
-    background-color: #5CDB95;
+    background-color: #fffff8;
 }
 
 a{
@@ -7,34 +7,49 @@ a{
     font-family: 'Impact', sans-serif;
     text-decoration: none;
 }
+
+a, ul{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+.sub-category{
+    color: rgb(0, 114, 143);
+}
+
 h1{
+    background-color: #a50e0e;
+    text-align: center;
     color: gold;
 }
 h2{
+    text-align: center;
     color: ghostwhite ;
 }
 h3{
+    text-align: center;
     color: green;
 }
 
 .header{
-    color: #EDF5E1;
+    color: black;
 }
 
 div{
-    background-color: #0b0c10;
-    color: #c5c6c7;
+    color: #000000;
     font-family: 'Roboto', sans-serif;
     font-size: 14;
 }
 #div-1{
-    background-color: #05386B;
-    width: 60%;
+    color: black;
+    width: 100%;
 }
 
 #div-2{
-    background-color: cyan;
-    width: 45%;
+    text-align: center;
+    text-align: justify;
+    width: 100%;
 }
 
 @media only screen and (max-width: 600px){

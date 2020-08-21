@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap');
+
 body{
     background-color: #fffff8;
 }
@@ -24,16 +27,14 @@ h1{
     color: gold;
 }
 h2{
-    text-align: center;
     color: ghostwhite ;
 }
 h3{
-    text-align: center;
     color: green;
 }
 
 .header{
-    color: black;
+    color: gold;
 }
 
 div{
@@ -43,13 +44,17 @@ div{
 }
 #div-1{
     color: black;
+    text-align: center;
     width: 100%;
+    font-size: 400%;
+    font-weight: bolder;
 }
 
 #div-2{
     text-align: center;
     text-align: justify;
     width: 100%;
+    font-size: 150%;
 }
 
 @media only screen and (max-width: 600px){

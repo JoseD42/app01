@@ -81,7 +81,7 @@ let miceList = [
         region: "South America",
         description: "A large-tailed giant and cute rodent"
     }
-]
+];
 
 categories.dogs.button.onclick = ()=> {
     if(categories.dogs.content.innerHTML){
@@ -117,7 +117,7 @@ categories.mices.button.onclick = ()=> {
         
         return;
     }
-    catList.forEach(mice =>{
+    miceList.forEach(mice =>{
         categories.mices.content.innerHTML += `<li>
             <span>${mice.name}</span>
             <div>region: ${mice.region}</div>

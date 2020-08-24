@@ -57,8 +57,41 @@ div{
     font-size: 150%;
 }
 
+.container-elements{
+    height: auto;
+    min-height: 100px;
+}
+
+.element{
+    float: left;
+    width: 20%;
+}
+
+#meme-image{
+    width: 20%;
+}
+
 @media only screen and (max-width: 600px){
     body{
-        background-color: #fff;
+        background-color: #fffff8;
     }
+
+    #div-1{
+        width: 100%;
+        text-align: center;
+        font-size: 300%;
+        font-weight: bolder;
+    }
+    .element{
+        float: none;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 200%;
+    }
+    .element:hover{
+        background-color: black;
+        color: white;
+    }
+
 }
